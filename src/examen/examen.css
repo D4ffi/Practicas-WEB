@@ -1,0 +1,73 @@
+h1,h2,h3,h4,h5,h6 {
+    color: blue;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 20px;
+}
+
+.imagenes {
+    padding: 20px;
+    margin: 25px;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+.planta {
+    background-color: white;
+}
+
+.edad {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+
+td {
+    height: 30px;
+    text-align: center;
+    background-color: beige;
+}
+
+.headers {
+    width: 100px;
+}
+
+.headers2 {
+    width: 100px;
+}
+
+.banderas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 500px;
+    height: 100px;
+    background-color: beige;
+}
+
+.francia, .alemania, .italia {
+    width: 100px;
+    height: 60px;
+}
+
+.francia {
+    background: linear-gradient(to right, blue 33.33%, white 33.33%, white 66.66%, red 66.66%);
+}
+
+.alemania {
+    background: linear-gradient(to bottom, black 33.33%, red 33.33%, red 66.66%, yellow 66.66%);
+}
+
+.italia {
+    background: linear-gradient(to right, green 33.33%, white 33.33%, white 66.66%, red 66.66%);
+}
